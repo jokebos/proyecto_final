@@ -1,0 +1,26 @@
+@import "colores" ;
+
+$font-titulo:24px, Darker grotesque, sans-serif;
+$color-tit:#ccc;
+
+h1.title {
+  background-color:$color-fondos;
+  color:$color-tit;
+}
+
+ul{
+	list-style:none;
+	li{
+		padding:15px;
+		display:inline-block;
+			a{
+				text-decoration:none;
+				font-size:18px;
+				color:green;
+			}
+	}
+}
+
+section{
+		width:300px;
+}
