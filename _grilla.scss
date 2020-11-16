@@ -1,0 +1,14 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 15px;
+}
+
+@for $i from 1 through 12 {
+  .grid-#{$i} {
+    grid-column: span ($i);
+  }
+}
+
+.flex{ display: flex;  
+}
